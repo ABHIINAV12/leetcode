@@ -32,7 +32,7 @@ public:
         }
         f(i,0,n) cout<<num[i]<<" "; cout<<"\n";
         f(i,0,n) cout<<dp[i]<<" "; cout<<"\n";
-        mpi mp; mp[0]=1; int rip=0;
+        int rip=0;
         f(i,0,n)
           if(dp[i]==ret) rip+=num[i];
         return rip;
